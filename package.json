@@ -1,6 +1,6 @@
 {
   "name": "hugo-snippets",
-  "publisher": "Florian Grässle",
+  "publisher": "holehan",
   "description": "Snippets for Hugo's Go templates",
   "version": "0.1.0",
   "repository": {
