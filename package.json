@@ -1,0 +1,22 @@
+{
+  "name": "hugo-snippets",
+  "publisher": "Florian Grässle",
+  "description": "Snippets for Hugo's Go templates",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holehan/vscode-hugo-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.9.1"
+  },
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "gohtml",
+        "path": "./snippets/gohtml.json"
+      }
+    ]
+  }
+}
