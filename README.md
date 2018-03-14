@@ -6,7 +6,7 @@ Based on [Atom text snippets for Hugo](https://github.com/holehan/atom-hugo-snip
 
 ## Installation
 
-Download the latest release from the Releases tab. Install it via Command Palette (<kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>P</kbd>): `Extensions: Install from VSIX...`
+Download the [latest release](/releases/latest) and install the VSIX extension file using _Command Palette_ -> _Extensions: Install from VSIX..._
 
 ## Usage
 
