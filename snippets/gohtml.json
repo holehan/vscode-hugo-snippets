@@ -75,7 +75,7 @@
     "description": "Scratch Add"
   },
   "Scratch Get": {
-    "prefix": "sradd",
+    "prefix": "srget",
     "body": ["{{ $.Scratch.Get \"$1\" }}"],
     "description": "Scratch Get"
   },
