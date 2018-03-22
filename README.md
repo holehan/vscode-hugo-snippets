@@ -2,7 +2,7 @@
 
 Snippets for [Hugo's Go templates](https://gohugo.io/templates/introduction/).
 
-Based on [Atom text snippets for Hugo](https://github.com/holehan/atom-hugo-snippets) and inspired by [regisphilibert/Hugo-Snippets (Hugo Snippets for Sublime Text 3!)](https://github.com/regisphilibert/Hugo-Snippets)
+Based on [Atom text snippets for Hugo](https://github.com/holehan/atom-hugo-snippets) and inspired by [regisphilibert/Sublime-Hugo-Snippets](https://github.com/regisphilibert/Sublime-Hugo-Snippets)
 
 ## Installation
 
