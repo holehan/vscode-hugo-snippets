@@ -2,7 +2,7 @@
   "name": "hugo-snippets",
   "publisher": "holehan",
   "description": "Snippets for Hugo's Go templates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/holehan/vscode-hugo-snippets.git"
