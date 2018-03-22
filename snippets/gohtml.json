@@ -1,122 +1,72 @@
 {
   "Wrap in curled brackets": {
     "prefix": "x",
-    "body": [
-      "{{ $1 }}"
-    ],
+    "body": ["{{ $1 }}"],
     "description": "Curlies"
   },
   "Dot": {
     "prefix": "dot",
-    "body": [
-      "{{ . }}"
-    ],
+    "body": ["{{ . }}"],
     "description": "Dot"
   },
   "If": {
     "prefix": "if",
-    "body": [
-      "{{ if $1 }}",
-      "\t$2",
-      "{{ end }}"
-    ],
+    "body": ["{{ if $1 }}", "\t$2", "{{ end }}"],
     "description": "If"
   },
   "If/Else": {
     "prefix": "ife",
-    "body": [
-      "{{ if $1 }}",
-      "\t$2",
-      "{{ else }}",
-      "\t$3",
-      "{{ end }}"
-    ],
+    "body": ["{{ if $1 }}", "\t$2", "{{ else }}", "\t$3", "{{ end }}"],
     "description": "If/Else"
   },
   "If/Else If": {
     "prefix": "ifei",
-    "body": [
-      "{{ if $1 }}",
-      "\t$2",
-      "{{ else if $3}}",
-      "\t$4",
-      "{{ end }}"
-    ],
+    "body": ["{{ if $1 }}", "\t$2", "{{ else if $3 }}", "\t$4", "{{ end }}"],
     "description": "If/Else If"
   },
   "With": {
     "prefix": "with",
-    "body": [
-      "{{ with $1 }}",
-      "\t$2",
-      "{{ end }}"
-    ],
+    "body": ["{{ with $1 }}", "\t$2", "{{ end }}"],
     "description": "With"
   },
   "With Else": {
     "prefix": "withe",
-    "body": [
-      "{{ with $1 }}",
-      "\t$2",
-      "{{ else }}",
-      "\t$3",
-      "{{ end }}"
-    ],
+    "body": ["{{ with $1 }}", "\t$2", "{{ else }}", "\t$3", "{{ end }}"],
     "description": "With Else"
   },
   "Range": {
     "prefix": "range",
-    "body": [
-      "{{ range $1 }}",
-      "\t$2",
-      "{{ end }}"
-    ],
+    "body": ["{{ range $1 }}", "\t$2", "{{ end }}"],
     "description": ""
   },
   "Partial": {
     "prefix": "partial",
-    "body": [
-      "{{ partial \"$1\" . }}"
-    ],
+    "body": ["{{ partial \"$1\" . }}"],
     "description": "Partial"
   },
   "Block": {
     "prefix": "block",
-    "body": [
-      "{{ block \"${1:main}\" ${2:.} }}",
-      "\t$3",
-      "{{ end }}"
-    ],
+    "body": ["{{ block \"${1:main}\" ${2:.} }}", "\t$3", "{{ end }}"],
     "description": "Block"
   },
   "Block define": {
     "prefix": "define",
-    "body": [
-      "{{ define \"${1:main}\" }}",
-      "\t$2",
-      "{{ end }}"
-    ],
+    "body": ["{{ define \"${1:main}\" }}", "\t$2", "{{ end }}"],
     "description": "Block define"
   },
   "Comment": {
     "prefix": "comment",
-    "body": [
-      "{{/* $1 */}}"
-    ],
+    "body": ["{{/* $1 */}}"],
     "description": "Comment"
   },
   "Variable": {
     "prefix": "var",
-    "body": [
-      "{{ \\$${1:var} := $2 }}"
-    ],
+    "body": ["{{ \\$${1:var} := $2 }}"],
     "description": "Variable"
   },
   "Debug": {
     "prefix": "debug",
-    "body": [
-      "{{ printf \"%#v\" $1 }}"
-    ],
+    "body": ["{{ printf \"%#v\" $1 }}"],
     "description": "Debug"
   }
 }
