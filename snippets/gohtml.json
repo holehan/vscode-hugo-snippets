@@ -81,7 +81,7 @@
   },
   "Scratch Set In Map": {
     "prefix": "srmap",
-    "body": ["{{ $.Scratch.SetInMap \"$1\" \"$2\" \"$3\"}}"],
+    "body": ["{{ $.Scratch.SetInMap \"$1\" \"$2\" \"$3\" }}"],
     "description": "Scratch Set In Map"
   },
   "Scratch Sort Map": {
