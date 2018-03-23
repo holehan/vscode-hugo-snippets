@@ -14,19 +14,24 @@ Make sure to use "Golang HTML Template (gohtml)" as a language type within VS Co
 
 ## Available snippets
 
-| Snippet      | Tab trigger | Output                             |
-| :----------- | :---------- | :--------------------------------- |
-| Curlies      | **x**       | `{{ }}`                            |
-| Dot          | **dot**     | `{{ . }}`                          |
-| If           | **if**      | `{{ if }} {{ end }}`               |
-| If/Else      | **ife**     | `{{ if }} {{ else }} {{ end }}`    |
-| If/Else if   | **ifei**    | `{{ if }} {{ else if }} {{ end }}` |
-| With         | **with**    | `{{ with }} {{ end }}`             |
-| With/Else    | **withe**   | `{{ with }} {{ else }} {{ end }}`  |
-| Range        | **range**   | `{{ range }} {{ end }}`            |
-| Partial      | **partial** | `{{ partial "" . }}`               |
-| Block        | **block**   | `{{ block "main" . }} {{ end }}`   |
-| Block define | **define**  | `{{ define "block" }} {{ end }}`   |
-| Comment      | **comment** | `{{/* */}}`                        |
-| Variable     | **var**     | `{{ $var := what }}`               |
-| Debug        | **debug**   | `{{ printf "%#v" }}`               |
+| Snippet            | Tab trigger   | Output                                  |
+| :----------------- | :------------ | :-------------------------------------- |
+| Curlies            | **x**         | `{{ }}`                                 |
+| Dot                | **dot**       | `{{ . }}`                               |
+| If                 | **if**        | `{{ if }} {{ end }}`                    |
+| If/Else            | **ife**       | `{{ if }} {{ else }} {{ end }}`         |
+| If/Else if         | **ifei**      | `{{ if }} {{ else if }} {{ end }}`      |
+| With               | **with**      | `{{ with }} {{ end }}`                  |
+| With/Else          | **withe**     | `{{ with }} {{ else }} {{ end }}`       |
+| Range              | **range**     | `{{ range }} {{ end }}`                 |
+| Partial            | **partial**   | `{{ partial "" . }}`                    |
+| Block              | **block**     | `{{ block "main" . }} {{ end }}`        |
+| Block define       | **define**    | `{{ define "block" }} {{ end }}`        |
+| Comment            | **comment**   | `{{/* */}}`                             |
+| Variable           | **var**       | `{{ $var := what }}`                    |
+| Scratch Set        | **srset**     | `{{ $.Scratch.Set "" }}`                |
+| Scratch Add        | **sradd**     | `{{ $.Scratch.Add "" }}`                |
+| Scratch Get        | **srget**     | `{{ $.Scratch.Get "" }}`                |
+| Scratch Set In Map | **srmap**     | `{{ $.Scratch.SetInMap "" "" "" }}`     |
+| Scratch Sort Map   | **srsortmap** | `{{ $.Scratch.GetSortedMapValues "" }}` |
+| Debug              | **debug**     | `{{ printf "%#v" }}`                    |
