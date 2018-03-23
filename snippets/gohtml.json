@@ -64,6 +64,31 @@
     "body": ["{{ \\$${1:var} := $2 }}"],
     "description": "Variable"
   },
+  "Scratch Set": {
+    "prefix": "srset",
+    "body": ["{{ $.Scratch.Set \"$1\" $2 }}"],
+    "description": "Scratch Set"
+  },
+  "Scratch Add": {
+    "prefix": "sradd",
+    "body": ["{{ $.Scratch.Add \"$1\" $2 }}"],
+    "description": "Scratch Add"
+  },
+  "Scratch Get": {
+    "prefix": "srget",
+    "body": ["{{ $.Scratch.Get \"$1\" }}"],
+    "description": "Scratch Get"
+  },
+  "Scratch Set In Map": {
+    "prefix": "srmap",
+    "body": ["{{ $.Scratch.SetInMap \"$1\" \"$2\" \"$3\"}}"],
+    "description": "Scratch Set In Map"
+  },
+  "Scratch Sort Map": {
+    "prefix": "srsortmap",
+    "body": ["{{ $.Scratch.GetSortedMapValues \"$1\" }}"],
+    "description": "Scratch Sort Map"
+  },
   "Debug": {
     "prefix": "debug",
     "body": ["{{ printf \"%#v\" $1 }}"],
